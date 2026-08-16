@@ -11,7 +11,7 @@ ph = PasswordHasher(
     parallelism=settings.PASSWORD_HASH_PARALLELISM,
     hash_len=32,
     salt_len=16,
-    type=Type.ID,
+    type_id=Type.ID,
 )
 
 
